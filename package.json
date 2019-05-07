@@ -1,0 +1,17 @@
+{
+  "name": "multiple-define",
+  "version": "1.0.1",
+  "description": "Define multiple non-enumerable properties",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "define",
+    "object",
+    "property",
+    "descriptor"
+  ],
+  "author": "hjdtl",
+  "license": "ISC"
+}

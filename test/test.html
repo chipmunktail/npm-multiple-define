@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<head>
+    <title>test</title>
+</head>
+
+<body>
+    <script src="../dist/bundle.js"></script>
+    <script>
+        console.log(window.md)
+        var foo = {},
+            bar = { a: 1 };
+
+        window.md(foo, bar, ['a'])
+
+        console.log(foo, bar)
+    </script>
+</body>
